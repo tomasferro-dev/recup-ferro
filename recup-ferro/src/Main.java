@@ -7,7 +7,7 @@ public class Main {
         Cosecha cosecha11 = new Cosecha(LocalDate.now(), 2);
         Cosecha cosecha2 = new Cosecha(LocalDate.now(), 1000);
 
-        Cultivo cultivo1 = new Cultivo("Zanahoria", TipoCultivo.HORTALIZA);
+        Cultivo cultivo1 = new Cultivo("Naranja", TipoCultivo.FRUTAL);
         Cultivo cultivo2 = new Cultivo("Menta", TipoCultivo.AROMATICA);
 
         // Dos sectores ("Frutales" y "Aromáticas") con al menos un cultivo cada uno (1/2)
